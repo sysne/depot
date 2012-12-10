@@ -14,6 +14,7 @@ CreateCarts	db/migrate/20121204094952_create_carts.rb	/^class CreateCarts < Acti
 CreateLineItems	db/migrate/20121204100809_create_line_items.rb	/^class CreateLineItems < ActiveRecord::Migration$/;"	c
 CreateProducts	db/migrate/20121119065834_create_products.rb	/^class CreateProducts < ActiveRecord::Migration$/;"	c
 Depot	config/application.rb	/^module Depot$/;"	m
+FactoryGirl	spec/factories.rb	/^module FactoryGirl::Syntax::Methods$/;"	m
 LineItem	app/models/line_item.rb	/^class LineItem < ActiveRecord::Base$/;"	c
 LineItemsController	app/controllers/line_items_controller.rb	/^class LineItemsController < ApplicationController$/;"	c
 LineItemsHelper	app/helpers/line_items_helper.rb	/^module LineItemsHelper$/;"	m
@@ -46,6 +47,7 @@ new	app/controllers/products_controller.rb	/^  def new$/;"	f	class:ProductsContr
 show	app/controllers/carts_controller.rb	/^  def show$/;"	f	class:CartsController
 show	app/controllers/line_items_controller.rb	/^  def show$/;"	f	class:LineItemsController
 show	app/controllers/products_controller.rb	/^  def show$/;"	f	class:ProductsController
+sn	spec/factories.rb	/^  def sn$/;"	f	class:FactoryGirl
 update	app/controllers/carts_controller.rb	/^  def update$/;"	f	class:CartsController
 update	app/controllers/line_items_controller.rb	/^  def update$/;"	f	class:LineItemsController
 update	app/controllers/products_controller.rb	/^  def update$/;"	f	class:ProductsController
